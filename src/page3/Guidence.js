@@ -8,7 +8,7 @@ const Guidence = () => {
         <div className='flex justify-center items-center text-6xl'> <p>Guidence</p></div>
         <div className='w-[100%]  flex items-center justify-center '>
           <div className='w-[80%] h-[600px]  flex items-center justify-center sm:mt-0 mt-[-150px]'>
-            <a href="">  <img src={guidence} alt="" /> </a>
+            <a href="https://www.coretocloud.co.uk/?utm_source=localiq&utm_medium=sem&utm_campaign=core+to+cloud">  <img src={guidence} alt="" /> </a>
           </div>
            
         </div>

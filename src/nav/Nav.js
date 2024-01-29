@@ -38,8 +38,8 @@ const Nav = () => {
                  <div className='hidden sm:flex justify-evenly items-center flex-row mt-8 '>
                     <div> <Link to='/'> HOME </Link></div>
                     <div><Link to={'/manual'}> MANUAL </Link></div>
-                    <div>PREMIUM</div>
-                    <div>PURCHASE</div>
+                    <div><Link to={'/premium'}>PREMIUM </Link> </div>
+                    {/* <div> <Link to={'/purchase'}>PURCHASE </Link></div> */}
                     <div><Link to='/'> Back </Link></div>
                 </div>
             </div>

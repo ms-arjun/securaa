@@ -2,6 +2,7 @@ import React from 'react'
 import activate from '../assets/acti.png'
 import childmode from '../assets/child.png'
 import scanner from '../assets/scan.png'
+import { Link } from 'react-router-dom'
 
 const SecurityTypes = () => {
   return (
@@ -13,19 +14,19 @@ const SecurityTypes = () => {
         </div>
         <div className='flex sm:flex-row flex-col justify-evenly items-center mt-[100px]'>
             <div className='w-[400px] h-[400px] '>
-              <img src={scanner} alt=""
+           <Link to={'/tvsectypes/scan'}>  <img src={scanner} alt=""
                className='w-[400px] h-[300px]' />
-            <div className='text-6xl'> <p className='text-center sm:text-4xl text-2xl'>  SCANNING  </p> </div>
+            <div className='text-6xl'> <p className='text-center sm:text-4xl text-2xl'>  SCANNING  </p> </div> </Link> 
             </div>
             <div className='w-[400px] h-[400px] '>
-              <img src={activate} alt=""
+            <Link to={'/tvsectypes/activatesecuraa'}>  <img src={activate} alt=""
                className='w-[400px] h-[300px]' /> 
-            <div className='text-6xl'> <p className='text-center sm:text-4xl text-2xl'>  ACTIVATE SECURAA  </p> </div>
+            <div className='text-6xl'> <p className='text-center sm:text-4xl text-2xl'>  ACTIVATE SECURAA  </p> </div> </Link>
             </div>
             <div className='w-[400px] h-[400px] '>
-              <img src={childmode} alt="" 
+            <Link to={'/tvsectypes/childmode'}>  <img src={childmode} alt="" 
                className='w-[400px] h-[300px]' />
-            <div className='text-6xl'> <p className='text-center sm:text-4xl text-2xl'>  CHILD MODE  </p> </div>
+            <div className='text-6xl'> <p className='text-center sm:text-4xl text-2xl'>  CHILD MODE  </p> </div>  </Link>
             </div>
         </div>
         
